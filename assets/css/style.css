@@ -1,37 +1,90 @@
 body{
-    width: 960px;
-    margin-left: auto;
-    margin-right:auto;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-
+    background-image: url("../images/vintage-concrete.png");
+}
+#header1{
+    height: 90px;
 }
 
-header{
+#header1, #header2{
+    background-color: white;
+    width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 20px;
-    border-bottom-style: inset;
-    border-color: #cccccc;
-    border-width:1pt;
-    height: 40px;
+    border-bottom:1pt inset #cccccc;
 }
+li{
+    display: inline;
+}
+#menu{
+    float: right;
+    margin:30px 260px 10px 10px;
+}
+#about, #portfolio{
+    border-right: 1pt solid #cccccc;
+}
+#about, #portfolio, #contact{
+    height: 40px;
+    /* margin: 25px 0 25px 0; */
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.aboutimg{
+    float: left;
 
+}
 #name{
+    float: left;
     color: white;
     background-color: #4aaaa5;
     height: 40px;
     width: 200px;
     text-align: center;
+    font-size: 40px;
+    padding: 25px;
+    margin-left: 260px;
 }
-#aboutme{
+#aboutme, #portbox{
+    color: #4aaaa5;
+    width: 960px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 20px;
     background-color: #ffffff;
     border-style: solid;
     border-color: #dddddd;
-    height: 500px;
+    height: 450px;
 }
 
 
 footer{
+    border-top: 8pt solid rgb(54, 153, 54);
+    color: white;
+    width:100%;
+    padding-top: 30px;
+    text-align: center;
     background-color: #666666;
+    margin: 0;
+    padding-top: 30px;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+#portfoot{
+    border-top: 8pt solid rgb(54, 153, 54);
+    color: white;
+    width:100%;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #666666;
+    margin-top: 40px;
+    padding: 30px 0 5px 0;
+    
+}
+#portbox{
+    height: 550px;
+
 }
